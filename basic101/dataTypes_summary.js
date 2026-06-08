@@ -46,3 +46,23 @@ const myFunction=function(){
     console.log("Hello World!")
 }
 myFunction();
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack(primitive)=> copy of variable ,Heap(Non-Primitive) => reference
+
+let myCommonName="Arjun"
+let anotherName=myCommonName
+anotherName="motu"
+console.log(anotherName)
+console.log(myCommonName)
+
+let user={
+    email:"thisisrohit01@gmial.com",
+        upi:"thisisrohit01@ybl"
+}
+
+let user2=user
+user2.email="this.is.rohit119@gmial.com"
+console.log(user)
+console.log(user2)
